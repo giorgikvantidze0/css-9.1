@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-container {
+    max-width: 296px;
+    width: 100%;
+    background-color: #14171F;
+
+}
+
+.nav-logo {
+    max-width: 248px;
+    width: 100%;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.logo-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-text {
+    color: #FFFFFF;
+    max-width: 146px;
+    font-size: 24px;
+
+}
+
+.frofail-wrapper {
+    padding: 24px;
+}
+
+.nav-profail {
+    max-width: 248px;
+    width: 100%;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+
+}
+
+.nav-profail-foto {
+    padding: 12px 0px 12px 0px;
+    display: flex;
+    max-width: 248px;
+    width: 100%;
+}
+
+.profaail {
+    display: flex;
+    gap: 8px;
+}
+
+.texttt-profile {
+    max-width: 113px;
+    gap: 8px;
+
+}
+
+.nav-profail-andrio {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.nav-profail-student {
+    font-size: 14px;
+    color: #929699;
+}
+
+.profail-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 28px;
+}
+
+.list {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.text-list {
+    font-size: 16px;
+    color: #929699;
+}
+
+.main-setings {
+    max-width: 248px;
+    width: 100%;
+    padding: 32px 0px 32px 0px;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+}
+
+.buttton-clas {
+    position: relative;
+    padding-left: 24px;
+}
+
+.inputsButt {
+    padding: 12px 24px;
+    width: 253px;
+    color: #7B62FF;
+    background-color: #14171F;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+
+}
+
+.logOut {
+    position: absolute;
+    left: 70px;
+    top: 9px;
+}
