@@ -4,18 +4,22 @@
     box-sizing: border-box;
 }
 
+.box-container {
+    display: flex;
+}
 
 .nav-container {
     max-width: 296px;
     width: 100%;
     background-color: #14171F;
-
+    padding-left: 24px;
+    padding-right: 19px;
 }
+
 
 .nav-logo {
     max-width: 248px;
     width: 100%;
-    padding: 24px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -62,7 +66,7 @@
 }
 
 .texttt-profile {
-    max-width: 113px;
+    max-width: 254px;
     gap: 8px;
 
 }
@@ -118,7 +122,7 @@
 
 .buttton-clas {
     position: relative;
-    padding-left: 24px;
+    padding-bottom: 24px;
 }
 
 .inputsButt {
@@ -136,3 +140,266 @@
     left: 70px;
     top: 9px;
 }
+
+.headeer {
+    padding-left: 32px;
+    padding-top: 24px;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.ancor {
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+    color: #2F2F2F;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.hreff {
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+    color: #2F2F2F;
+    font-size: 16px;
+}
+
+.headeer-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo {
+    background-color: #F7F7F7;
+    border-radius: 600px;
+    border-width: 32px;
+}
+
+
+
+.button-search {
+    padding: 8px 12px;
+    max-width: 144px;
+    font-size: 14px;
+    color: #2F2F2F;
+    background-color: #F7F7F7;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+}
+
+.images-text {
+    padding-top: 39px;
+}
+
+.main-image {
+    background-image: url("images/imagee.png");
+    width: 100%;
+    padding: 65px 0px 65px 40px;
+    border-radius: 12px;
+    border-color: #C7C7C7;
+}
+
+.main-image-text {
+    max-width: 416px;
+    width: 100%;
+    font-size: 45px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.main-button- {
+    max-width: 913px;
+    gap: 16px;
+    padding-top: 32px;
+    display: flex
+}
+
+.button-main- {
+    padding: 8px 16px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 14px;
+    border-color: 1px solid #C7C7C7;
+}
+
+.button-man- {
+    padding: 8px 16px;
+    background-color: #14171F;
+    border-color: 1px solid  #14171F;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.main-box {
+    padding-top: 32px;
+    border-color: #C7C7C7;
+    border-radius: 16px;
+    max-width: 702px;
+    width: 100%;
+}
+
+.boxx {
+    max-width: 670px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+.mainn-texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textt {
+    gap: 8px;
+}
+
+.personal {
+    font-size: 16px;
+    color: #14171F;
+}
+
+.Upload {
+    font-size: 14px;
+    color: #666666;
+}
+
+
+.infut-name {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.infut-numberr {
+    display: flex;
+    max-width: 670px;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+
+.input-name-fuul {
+    max-width: 327px;
+
+}
+
+.fuul-name {
+    font-size: 16px;
+    color: #2F2F2F;
+    padding-top: 16px;
+    display: flex;
+}
+
+.inputt {
+    max-width: 327px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-color: 1px solid #C7C7C7;
+    color: #666666;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.numberr-infut {
+    background-color: #14171F;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    max-width: 80px;
+    width: 100%;
+}
+
+
+.inputt-- {
+    max-width: 327px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-color: 1px solid #C7C7C7;
+    color: #666666;
+    border-radius: 8px;
+    padding: 12px 16px; 
+}
+
+
+.emilee {
+    max-width: 327px;
+    width: 100%;
+    background-color: #E6E1FF;
+    border-color: 1px solid #7B62FF;
+    color: #666666;
+    border-radius: 8px;
+    padding: 12px 16px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (min-width: 768px) and (max-width:1023px){
+    .nav-container {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .main-button- {
+        display: block;
+    }
+
+    .main-image {
+        background-image: url(images/tablet.iage.png);
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+}
+
+
+@media screen  and (max-width:767px){
+    .nav-container {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .ancor {
+        display: inline-block;
+    }
+
+    .main-image {
+        background-image: url(images/mobail.medea.png);
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+
+    .main-button- {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
