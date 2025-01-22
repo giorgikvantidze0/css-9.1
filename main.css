@@ -219,6 +219,12 @@
     display: flex
 }
 
+.main-button- input:hover {
+    background-color: #14171F;
+    cursor: pointer;
+    color: #fff;
+}
+
 .button-main- {
     padding: 8px 16px;
     background-color: #FFFFFF;
@@ -229,19 +235,17 @@
 
 .button-man- {
     padding: 8px 16px;
-    background-color: #14171F;
-    border-color: 1px solid  #14171F;
     border-radius: 50px;
     font-size: 14px;
-    color: #FFFFFF;
 }
 
 .main-box {
-    padding-top: 32px;
-    border-color: #C7C7C7;
+    margin-top: 20px;
+    border: 1px solid #C7C7C7;
     border-radius: 16px;
-    max-width: 702px;
+    max-width: 705px;
     width: 100%;
+    padding: 24px 16px;
 }
 
 .boxx {
@@ -257,6 +261,8 @@
 }
 
 .textt {
+    display: flex;
+    flex-direction: column;
     gap: 8px;
 }
 
@@ -281,12 +287,14 @@
     display: flex;
     max-width: 670px;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 
 .input-name-fuul {
     max-width: 327px;
+    width: 100%;
+    position: relative;
 
 }
 
@@ -307,6 +315,11 @@
     padding: 12px 16px;
 }
 
+.infutttt {
+    display: flex;
+    gap: 8px;
+}
+
 .numberr-infut {
     background-color: #14171F;
     border-radius: 8px;
@@ -320,11 +333,12 @@
 .inputt-- {
     max-width: 327px;
     width: 100%;
+
     background-color: #FFFFFF;
     border-color: 1px solid #C7C7C7;
     color: #666666;
     border-radius: 8px;
-    padding: 12px 16px; 
+    padding: 12px 16px;
 }
 
 
@@ -335,7 +349,91 @@
     border-color: 1px solid #7B62FF;
     color: #666666;
     border-radius: 8px;
-    padding: 12px 16px; 
+    padding: 12px 16px;
+}
+
+.calendar {
+    position: absolute;
+    right: 20px;
+    top: 44px;
+}
+
+
+.div-Save {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.button-search {
+    background-color: #7F56D9;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+
+
+.main-personalinformation {
+    max-width: 702px;
+    width: 100%;
+    display: flex;
+    padding-top: 32px;
+}
+
+.Personal-information {
+    max-width: 432px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    padding: 16px 24px;
+}
+
+.personal-text {
+    font-size: 16px;
+    color: #14171F;
+}
+
+.personal-development {
+    max-width: 400px;
+    width: 100%;
+    padding: 16px;
+}
+
+.classs {
+    display: flex;
+    max-width: 161px;
+    width: 100%;
+    gap: 12px;
+}
+
+.claas-textandheader {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.headeerr {
+    font-size: 14px;
+    color: #666666;
+}
+
+.texttclass {
+    font-size: 16px;
+    color: #14171F;
+}
+
+.classs img {
+    height: 32px;
+    border-radius: 50%;
+}
+
+.claa-one {
+    display: flex;
+    gap: 12px;
+    max-width: 144px;
+    width: 100%;
 }
 
 
@@ -346,14 +444,7 @@
 
 
 
-
-
-
-
-
-
-
-@media screen  and (min-width: 768px) and (max-width:1023px){
+@media screen and (min-width: 768px) and (max-width:1023px) {
     .nav-container {
         display: none;
     }
@@ -371,12 +462,12 @@
         display: flex;
         background-repeat: no-repeat;
         background-size: 100%;
-        
+
     }
 }
 
 
-@media screen  and (max-width:767px){
+@media screen and (max-width:767px) {
     .nav-container {
         display: none;
     }
@@ -394,7 +485,7 @@
         display: flex;
         background-repeat: no-repeat;
         background-size: 100%;
-        
+
     }
 
     .main-button- {
@@ -402,4 +493,3 @@
         flex-wrap: wrap;
     }
 }
-
