@@ -380,6 +380,7 @@
     width: 100%;
     display: flex;
     padding-top: 32px;
+    gap: 24px;
 }
 
 .Personal-information {
@@ -395,17 +396,21 @@
     color: #14171F;
 }
 
+.boxix-container {
+    padding: 16px;
+}
+
 .personal-development {
     max-width: 400px;
     width: 100%;
-    padding: 16px;
+
 }
 
 .classs {
     display: flex;
     max-width: 161px;
     width: 100%;
-    gap: 12px;
+    gap: 70px;
 }
 
 .claas-textandheader {
@@ -420,6 +425,7 @@
 }
 
 .texttclass {
+    width: 150px;
     font-size: 16px;
     color: #14171F;
 }
@@ -435,6 +441,114 @@
     max-width: 144px;
     width: 100%;
 }
+
+.personal-development-role {
+    padding: 16px 0px;
+}
+
+
+.classs-role-too {
+    display: flex;
+    gap: 24px;
+}
+
+.claa-one-role {
+    max-width: 201px;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.container-Additional {
+    max-width: 246px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.container-box {
+    max-width: 246px;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container-info {
+    max-width: 214px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-title {
+    color: #14171F;
+    font-size: 16px;
+}
+
+.resume {
+    max-width: 214px;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.bordeer {
+    max-width: 214px;
+    width: 100%;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.border-text {
+    color: #666666;
+    font-size: 14px;
+}
+
+.border {
+    max-width: 214px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+
+.bordeer-linkdin {
+    max-width: 122px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    padding: 12px 16px;
+    gap: 10px;
+    display: flex;
+}
+
+
+.Facebook {
+    color: #666666;
+    padding: 10px 16px;
+    max-width: 118px;
+    border-radius: 8px;
+    background-color: #D2F0FF;
+}
+
+.bordeer-linkdin-search {
+    max-width: 84px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
 
 
 
